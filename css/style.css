@@ -37,6 +37,7 @@ button {
   border: none;
   padding: 8px 15px;
   border-radius: 1px;
+  background-color: #eaeaea;
 }
 
 footer {
@@ -51,6 +52,19 @@ footer {
 }
 
 /* Class Styles */
+
+
+.app {
+  width: 20px;
+}
+
+.notif {
+  width: 25px;
+}
+
+.profile {
+  width: 30px;
+}
 
 .main-body {
   position: absolute;
@@ -70,6 +84,8 @@ footer {
 
 .button {
   margin-left: 10px;
+  color: #5d5d5d;
+  font-weight: bold;
 }
 
 .right {
