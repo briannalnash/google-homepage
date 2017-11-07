@@ -1,0 +1,87 @@
+/*==============
+Universal
+================*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Main Styles */
+header {
+  height: 50px;
+  padding: 20px 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+  padding-left: 10px;
+}
+
+input[type=text] {
+  width: 100%;
+  background-color: white;
+  background-image: url("../img/google-mic.png");
+  background-size: 15px;/*background icon size*/
+  background-position: 95% 8px;
+  background-repeat: no-repeat;
+  border: 1px solid slategrey;
+  padding: 8px 40px;
+}
+
+button {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 1px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #cecece;
+    color: white;
+    box-shadow: 0 2px 2px 2px #333
+}
+
+/* Class Styles */
+
+.main-body {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.google-img {
+  width: 500px;
+}
+
+.search {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  margin-left: 10px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/* Media Queries */
+
+@media (min-width: 786px) {
+
+}
